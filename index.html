@@ -4,11 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacksurge — The STEM Opportunity Network</title>
+    
+    <!-- Standard SEO Metadata -->
+    <title>Hacksurge — The Connected STEM Opportunity Network</title>
+    <meta name="description" content="Hacksurge is the unified ecosystem connecting STEM talent, companies, and institutions. Discover technical jobs, engineering bootcamps, and hackathons in one centralized network.">
+    <meta name="keywords" content="STEM network, tech hackathons, developer jobs, coding bootcamps, tech talent showcase, computer science opportunities, engineering internships">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hacksurge.org/">
+
+    <!-- Open Graph / Facebook / LinkedIn (Social Discovery) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hacksurge.org/">
+    <meta property="og:title" content="Hacksurge — The Connected STEM Opportunity Network">
+    <meta property="og:description" content="One structured network bringing together talent, companies, and institutions. Join the waitlist for exclusive early access features.">
+    <meta property="og:image" content="https://hacksurge.org/og-image.png">
+
+    <!-- Twitter/X Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://hacksurge.org/">
+    <meta name="twitter:title" content="Hacksurge — The Connected STEM Opportunity Network">
+    <meta name="twitter:description" content="Stop searching across fragmented silos. Discover technical jobs, bootcamps, and hackathons in a single centralized layout.">
+    <meta name="twitter:image" content="https://hacksurge.org/og-image.png">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Lucide Icons-->
     <script src="https://unpkg.com/lucide@latest"></script>
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
@@ -85,6 +107,9 @@
                 class="flex flex-col sm:flex-row gap-3">
                 <!-- Hidden payload field for default Formspree message -->
                 <input type="hidden" name="message" value="I want to join the Hacksurge waitlist.">
+                
+                <!-- Anti-Spam Honeypot Field -->
+                <input type="text" name="_gotcha" style="display:none" />
 
                 <div class="relative flex-1">
                     <i data-lucide="mail" class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500"></i>
